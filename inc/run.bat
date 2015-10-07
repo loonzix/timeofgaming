@@ -1,0 +1,1 @@
+start C:\Users\Administrateur\Desktop\DevServer\GarrysMod\run.bat

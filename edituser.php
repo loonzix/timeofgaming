@@ -25,8 +25,6 @@ if(isset($_POST['submit'])){
     exit();
 }
 
-
-
 $req = $pdo->prepare("SELECT * FROM users WHERE id=?");
 $req->execute(array($_GET['id']));
 $data = $req->fetch(PDO::FETCH_ASSOC);
